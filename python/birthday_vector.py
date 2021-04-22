@@ -22,6 +22,7 @@ xlbl=label(pos=vector(11,0,0), text="X", color=color.red, opacity=0, height=30, 
 yaxis=cylinder(color=color.green, pos=vector(0,0,0), axis=vector(0,10,0), radius=0.3)
 ylbl=label(pos=vector(0,11,0), text="Y", color=color.green, opacity=0, height=30, box=0)
 zaxis=cylinder(color=color.blue, pos=vector(0,0,0), axis=vector(0,0,10), radius=0.3)
-xlbl=label(pos=vector(0,0,11), text="Z", color=color.blue, opacity=0, height=30, box=0)
+zlbl=label(pos=vector(0,0,11), text="Z", color=color.blue, opacity=0, height=30, box=0)
 
-r = arrow(pos=vector(0,0,0), axis = vector(2,10,7), color=color.white, shaftwidth=0.5)
+r = arrow(pos=vector(0, 0, 0), axis = vector(5, 10, 19), color=color.purple, shaftwidth=0.5)
+rlbl = label(pos=vector(13, 7, 10), text="r = 5x+10y+19z", color=color.purple, opacity=0, height=30, box=0)
