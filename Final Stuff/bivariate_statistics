@@ -19,3 +19,4 @@ def bivariate_statistics(data):
   statistics = np.array([meany, standard_deviation_of_y, x_min, x_max, y_min, y_max])
   return statistics
 
+
